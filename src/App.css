@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Carousel 컨테이너 스타일 */
+.carousel-container {
+    width: 100vw; /* 화면 전체 너비 */
+    height: 20vh; /* 화면 높이의 20% */
+    overflow: hidden; /* 오버플로우 숨기기 */
+    position: flex;
+}
+
+/* 캐러셀 스타일 */
+.carousel {
+    width: 10%; /* 부모 컨테이너의 너비에 맞춤 */
+    height: 10%; /* 부모 컨테이너의 높이에 맞춤 */
+}
+
+/* 슬라이드 스타일 */
+.carousel .slide {
+    width: 10%; /* 슬라이드 너비를 캐러셀 너비에 맞춤 */
+    height: 10%; /* 슬라이드 높이를 캐러셀 높이에 맞춤 */
+}
+
+/* 이미지 스타일 */
+.carousel .slide img {
+    width: 10%; /* 이미지 너비를 슬라이드 너비에 맞춤 */
+    height: 10%; /* 이미지 높이를 슬라이드 높이에 맞춤 */
+    object-fit:fill; /* 이미지가 캐러셀을 꽉 채우도록 설정 */
+    display: block; /* 기본적으로 display: block을 설정하여 margin 문제 해결 */
+}

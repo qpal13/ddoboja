@@ -1,0 +1,29 @@
+.추모공간{
+    width: 10rem;
+    position: absolute;
+    top: 92px;
+    list-style: none;
+    text-align: start;
+}
+
+.추모공간 li{
+    background: rgb(0,212,212);
+    cursor: pointer;
+}
+
+.추모공간 li a:hover{
+    background: rgb(0,175,175);
+}
+
+.추모공간.clicked {
+    display: none;
+}
+
+.submenu-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: none;
+    color: white;
+    padding: 16px;
+}
